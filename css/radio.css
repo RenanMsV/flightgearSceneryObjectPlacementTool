@@ -1,0 +1,55 @@
+    
+/* Font from Google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900');
+
+
+.form__answer {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 10%;
+    margin: 20px 1% 20px 0;
+    height: 180px;
+    vertical-align: top;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+label {
+    border: 1px solid rgba(#FAFAFA,.15);
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px 30px 10px;
+    cursor: pointer;
+    opacity: .5;
+    transition: all .5s ease-in-out;
+    &:hover, &:focus, &:active {
+        border: 1px solid rgba(#FAFAFA,.5);
+    }
+}
+
+
+/* Input style */
+
+input[type="radio"] {
+    opacity: 0;
+    width: 0;
+  height: 0;
+}
+
+p:hover {
+    width: 12%;
+}
+
+input[type="radio"]:active ~ label {
+  opacity: 1;
+}
+
+input[type="radio"]:checked ~ label {
+  opacity: 1;
+    border: 1px solid $;
+
+}
